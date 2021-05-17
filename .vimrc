@@ -3,14 +3,20 @@ call plug#begin('~/.vim/plugged')
 	Plug 'itchyny/lightline.vim'
 	Plug 'preservim/nerdtree'
 
-	"Java
+	" Java
 	Plug 'artur-shaik/vim-javacomplete2'
 
-	"Code completion
+	" Code completion
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
+" coc stuff to install
+" coc-json
+" coc-css
+" coc-tailwindcss
+" coc-yaml
+" coc-pyright
 
-"coc setup
+" coc setup
 "" Use tab for trigger completion with characters ahead and navigate.
 " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
 inoremap <silent><expr> <TAB>
