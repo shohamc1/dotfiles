@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'arcticicestudio/nord-vim'
 	Plug 'itchyny/lightline.vim'
 	Plug 'preservim/nerdtree'
+	Plug 'Raimondi/delimitMate'
 
 	" Java
 	Plug 'artur-shaik/vim-javacomplete2'
@@ -17,7 +18,7 @@ call plug#end()
 " coc-pyright
 
 " coc setup
-"" Use tab for trigger completion with characters ahead and navigate.
+" Use tab for trigger completion with characters ahead and navigate.
 " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :

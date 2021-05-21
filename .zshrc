@@ -112,4 +112,3 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR=vim
 alias autoremove="sudo pacman -Rsns $(pacman -Qtdq)"
-alias macos="./home/shohamc1/OSX-KVM/OpenCore-Boot.sh"
